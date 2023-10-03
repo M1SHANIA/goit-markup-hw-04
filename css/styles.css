@@ -116,6 +116,10 @@ img {
 .header-list-item-link:focus {
   color: #404bbf;
 }
+.header-list-item:hover::after {
+  border-radius: 2px;
+  background: #404bbf;
+}
 
 .header-adress {
   font-style: normal;
